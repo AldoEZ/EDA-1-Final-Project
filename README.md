@@ -6,8 +6,13 @@ The samples are generated randomly.
 
 # How to compile.
 The following code is used in the main folder:
+
 To link:
+
 gcc colaCircularLSE.c colaLSE.c lab.c main.c sample.c stack.c -c
+
 gcc colaCircularLSE.o colaLSE.o lab.o main.o sample.o stack.o -o lab
+
 To run:
+
 ./lab
